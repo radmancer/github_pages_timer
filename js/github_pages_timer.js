@@ -22,8 +22,8 @@ if (typeof(Storage) !== "undefined") {
     } else {
         sessionStorage.firstPageLoad = true;
         setTimeout(function(){
-            window.location.href = window.location.href;
-        }, 6000);
+            window.location.href = "github_pages_timer.html";
+        }, 60000);
     }
 } else {
     alert("Sorry, your browser does not support web storage.");
